@@ -109,8 +109,8 @@ tr.severity-low    td { background: #e8f5e9; }
 .badge-medium { background: #d29922; }
 .badge-low    { background: #1a7f37; }
 
-/* ---- Icons (wiki logo, domain icon, page icon) ---- */
-.wiki-logo               { font-size: 18px; line-height: 1; flex-shrink: 0; }
+/* ---- Logo and icons (domain icon, page icon) ---- */
+.wiki-logo               { height: 24px; width: auto; max-width: none; display: inline-block; vertical-align: middle; margin: 0; border: none; border-radius: 0; flex-shrink: 0; }
 .header-left             { display: flex; align-items: center; gap: 8px; }
 .header-right            { display: flex; align-items: center; gap: 6px; }
 .domain-icon, .page-icon { font-size: 18px; line-height: 1; }
